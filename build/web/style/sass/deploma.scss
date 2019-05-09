@@ -1,0 +1,124 @@
+@import url("../css/main.css") ;
+* {
+    box-sizing: border-box;
+}
+html,body{
+    min-height: 100%;
+    overflow-x: hidden;
+}
+body {
+    height: auto;
+    min-height: 100%;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.35em;    
+    -webkit-font-smoothing: antialiased;
+    .page-container {
+        height: 25%;
+        padding: 80px 20px 80px 20px;
+        background: linear-gradient(to bottom, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%);
+            h2 {
+                font-weight: 400;
+                margin-bottom: 26px;
+                font-size: 36px;
+                color: #5b777f;
+                text-align: center;
+            }
+            hr {
+                height: 3px;
+                width: 60px;
+                position: relative;
+                background: #626a29;
+                border: 0;
+                margin-bottom: 30px;
+            }
+        .table-container {
+            color: #5b777f !important;
+            .dataTables_wrapper {
+                label{
+                color: #5b777f !important;
+                }
+                .dataTables_info {
+                    color: #5b777f;
+                }
+                .dataTables_paginate {
+                    a {
+                        color: #5b777f !important;
+                        &:hover {
+                            color: #f3ca27 !important;
+                        }
+                    }
+                    
+                }
+            }
+            table {
+                background-color: #fff;
+                text-align: right;
+                width:100%;
+                thead {
+                    tr {
+                        th {
+                            font-family: Montserrat-Medium;
+                            font-size: 12px;
+                            color: #fff;
+                            line-height: 1.4;
+                            background-color: #455d7a;
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                            padding-right: 20px;
+                        }
+                    }
+                }
+                tbody {
+                    tr {
+                        td {
+                            font-size: 14px;
+                            color: #808080;
+                            line-height: 1.4;
+                            padding-bottom: 14px;
+                            padding-right: 20px;
+                            .checkbox {
+                                direction: ltr;
+                                [type="checkbox"] {
+                                    -webkit-appearance: none;
+                                    -moz-appearance: none;
+                                    font-size: 1.2em;
+                                    width: 2em;
+                                    height: calc(1em + 4px);
+                                    border: 0;
+                                    padding: 2px;
+                                    background-color: lightgrey;
+                                    border-radius: 90em;
+                                    vertical-align: middle;
+                                    transition: background-color 200ms;
+                                  }
+                                  [type="checkbox"]::after {
+                                    content: '';
+                                    display: block;
+                                    width: 1em;
+                                    height: 1em;
+                                    background-color: white;
+                                    border-radius: 90em;
+                                    transition: transform 200ms;
+                                    vertical-align: middle;
+                                  }
+                                  [type="checkbox"]:checked {
+                                    background-color: #85ef47;
+                                  }
+                                  [type="checkbox"]:checked::after {
+                                    transform: translateX(calc(100% - 4px));
+                                  }
+                                  [type="checkbox"]:focus {
+                                    outline: 1px solid lightblue;
+                                  }
+                            }
+                        }
+                    }
+                    tr:nth-child(even) {
+                        background-color: #eaf8e6;
+                    }
+                }
+            }
+        }
+    }
+}

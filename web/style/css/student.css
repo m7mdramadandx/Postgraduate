@@ -1,0 +1,37 @@
+.navbar {
+    background: #4980B5;
+}
+.navbar .navbar-brand ,.btn-link{
+    color: #dde8ef;
+}
+.navbar .nav-link i{
+    color: #e9f2ff;
+    font-size: 20px;
+}
+.navbar .form-control {
+    background-color: #E9ECEF;
+}
+
+.sidebar {
+    background: #262D33;
+}
+.sidebar .nav-link {
+    font-weight: 400;
+    font-size: 0.90rem;
+    color: #b5b5b5;
+}
+.fa-tachometer-alt{
+    color: #6194c1;
+    font-size: 20px;
+}
+.sidebar .nav-item .nav-link:hover {
+    color: #FFF;
+    background-color: #414d58;
+    border-right: 3px solid #608ab3;
+}
+#wrapper {
+    background-color: #F6F8FA;
+}
+#content-wrapper {
+    background-color: #efefef;
+}

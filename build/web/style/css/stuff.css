@@ -1,0 +1,83 @@
+.navbar {
+    border-bottom: 1px solid #23282c;
+    background-color: #3A4149;
+}
+.navbar .navbar-brand {
+    color: #fff;
+}
+.navbar .btn-link {
+    color: #fff !important;
+}
+.navbar .form-control {
+    background-color: #E9ECEF;
+}
+.navbar ul a {
+    color: #e4e7ea;
+}
+.navbar .dropdown-menu {
+    color: #e4e7ea;
+    background-color: #3a4149 !important;
+}
+.navbar .dropdown-menu a:hover{
+    background: #2f353a;
+    color: #e4e7ea;
+}
+.sidebar {
+    background-color: #3A4149;
+    border-left: 1px solid #23282c;
+}
+.sidebar .nav-item .nav-link span{
+    color: #fff;
+}
+.sidebar .nav-item .nav-link .fa-tachometer-alt {
+    color: #20a8d8;
+}
+.sidebar .nav-item .nav-link:hover {
+    color: #fff;
+    background: #20a8d8;
+}
+.breadcrumb {
+    border-bottom: 1px solid #23282c;
+    background-color: #3a4149;
+    
+}
+.breadcrumb .breadcrumb-item {
+    color: #e4e7ea;
+}
+
+#wrapper {
+    background-color:#2f353a;
+}
+.card {
+    background-color: #3a4149;
+    border: 1px solid #23282c;
+    color: #e4e7ea;
+    border-radius: .25rem;
+}
+.card-header {
+    background-color: #343b41;
+    border-bottom: 1px solid #23282c;
+}
+
+.table-bordered {
+    border: .5px solid #23282c !important;
+}
+
+.table-bordered th, .table-bordered td {
+    border: 1px solid #23282c;
+}
+#dataTable thead > tr > th {
+    border-bottom: .5px solid #23282c;
+}
+div.dataTables_wrapper div.dataTables_filter input {
+    color: #fff;
+    background-color: #515b65;
+}
+footer {
+    color: #e4e7ea;
+    background: #3a4149 !important;
+    border-top: 1px solid #23282c;
+}
+.badge-danger {
+    background:#f86c6b;
+}

@@ -1,0 +1,115 @@
+@import url("../css/main.css");
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  height: auto;
+  min-height: 100%;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.35em;
+  -webkit-font-smoothing: antialiased;
+}
+body .page-container {
+  height: 25%;
+  padding: 80px 20px 80px 20px;
+  background: linear-gradient(to bottom, #032731 0%, #032e3a 20%, #032e3a 100%, #032731 100%);
+}
+body .page-container h2 {
+  font-weight: 400;
+  margin-bottom: 26px;
+  font-size: 36px;
+  color: #5b777f;
+  text-align: center;
+}
+body .page-container hr {
+  height: 3px;
+  width: 60px;
+  position: relative;
+  background: #626a29;
+  border: 0;
+  margin-bottom: 30px;
+}
+body .page-container .table-container {
+  color: #5b777f !important;
+}
+body .page-container .table-container .dataTables_wrapper label {
+  color: #5b777f !important;
+}
+body .page-container .table-container .dataTables_wrapper .dataTables_info {
+  color: #5b777f;
+}
+body .page-container .table-container .dataTables_wrapper .dataTables_paginate a {
+  color: #5b777f !important;
+}
+body .page-container .table-container .dataTables_wrapper .dataTables_paginate a:hover {
+  color: #f3ca27 !important;
+}
+body .page-container .table-container table {
+  background-color: #fff;
+  text-align: right;
+  width: 100%;
+}
+body .page-container .table-container table thead tr th {
+  font-family: Montserrat-Medium;
+  font-size: 12px;
+  color: #fff;
+  line-height: 1.4;
+  background-color: #455d7a;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+body .page-container .table-container table tbody tr td {
+  font-size: 14px;
+  color: #808080;
+  line-height: 1.4;
+  padding-bottom: 14px;
+  padding-right: 20px;
+}
+body .page-container .table-container table tbody tr td .checkbox {
+  direction: ltr;
+}
+body .page-container .table-container table tbody tr td .checkbox [type=checkbox] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-size: 1.2em;
+  width: 2em;
+  height: calc(1em + 4px);
+  border: 0;
+  padding: 2px;
+  background-color: lightgrey;
+  border-radius: 90em;
+  vertical-align: middle;
+  transition: background-color 200ms;
+}
+body .page-container .table-container table tbody tr td .checkbox [type=checkbox]::after {
+  content: "";
+  display: block;
+  width: 1em;
+  height: 1em;
+  background-color: white;
+  border-radius: 90em;
+  transition: transform 200ms;
+  vertical-align: middle;
+}
+body .page-container .table-container table tbody tr td .checkbox [type=checkbox]:checked {
+  background-color: #85ef47;
+}
+body .page-container .table-container table tbody tr td .checkbox [type=checkbox]:checked::after {
+  transform: translateX(calc(100% - 4px));
+}
+body .page-container .table-container table tbody tr td .checkbox [type=checkbox]:focus {
+  outline: 1px solid lightblue;
+}
+body .page-container .table-container table tbody tr:nth-child(even) {
+  background-color: #eaf8e6;
+}
+
+/*# sourceMappingURL=deploma.css.map */

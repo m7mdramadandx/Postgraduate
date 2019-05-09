@@ -1,0 +1,84 @@
+@import url("../css/main.css");
+body {
+  background: url("../img/394532-PCGX5V-799.jpg") 50% fixed;
+  background-size: cover;
+}
+body .form-container {
+  font-size: 14px;
+  padding-top: 90px;
+}
+body .form-container form {
+  background: rgba(255, 255, 255, 0.74);
+  padding: 20px 40px 20px;
+  color: #f3ca27;
+}
+body .form-container form label {
+  text-align: right;
+  display: block;
+  font-weight: bold;
+}
+body .form-container form input {
+  display: block;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+}
+body .form-container form fieldset {
+  color: #f3ca27;
+  text-align: right;
+  margin-bottom: 18px;
+  padding-bottom: 10px;
+}
+body .form-container form fieldset legend {
+  text-align: right;
+}
+body .form-container form fieldset input {
+  display: inline;
+}
+body .form-container form .field {
+  text-align: right;
+  margin-bottom: 15px;
+}
+body .form-container form .field input, body .form-container form .field select {
+  display: inline-block;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  color: #757575;
+}
+body .form-container form .field-two {
+  margin-bottom: 15px;
+}
+body .form-container form .field-two input:first-child {
+  width: 63%;
+  margin-bottom: 10px;
+}
+body .form-container form .fieldset-two {
+  width: 86%;
+}
+body .form-container form .fieldset-two input {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+body .form-container form .fieldset-two input:last-child {
+  width: 52%;
+}
+body .form-container form .btn {
+  border: 1px solid transparent;
+  color: #fff;
+  border-color: #f3ca27;
+  background-color: #f3ca27;
+  font-size: 16px;
+  margin: 0 auto;
+}
+body .form-container form .btn:hover {
+  background-color: #f39c12;
+}
+body .form-container .form-sign {
+  margin: 0 auto;
+  text-align: right;
+}
+body .form-container .form-sign a {
+  color: #f3ca27;
+}
+
+/*# sourceMappingURL=style.css.map */

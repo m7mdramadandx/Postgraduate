@@ -1,0 +1,148 @@
+
+html,body {
+    direction: rtl;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    nav {
+        background-color: #032E3A;
+        border: 1px solid transparent;
+        a {
+            img {
+                height: 48px;
+                width: 156px;
+            }
+        }
+        div {
+            margin-right: 20px;
+            ul {
+                li {
+                    a {
+                        text-align: right;
+                    }
+                    a:hover {
+                        color: #f3ca27 !important;
+                    }
+                    a[class^="active"]{
+                        color: #f3ca27 !important;
+                    }
+                }
+            }
+        }
+    }
+    header {
+        section {
+            background: url(../img/233116-P2AQQU-997.jpg)fixed no-repeat 50%;
+            height: 700px;
+            width: 100%;
+            margin: auto;
+            display: table;
+            background-size: cover;
+            .inner {
+                display: table-cell;
+                vertical-align: middle;
+                width: 100%;
+                direction: ltr;
+                .header-txt {
+                    max-width: 500px;
+                    margin: 0 7.39vw;
+                    vertical-align: middle;
+                    h1 {
+                        font-family: 'Raleway',sans-serif;
+                        color: #233142;
+                        text-shadow: 0px 0px 300px #000;
+                        font-size: 500%;
+                    }
+                    .btns {
+                        .btn-one {
+                            
+                            font-family: 'Oswald',sans-serif;
+                            text-decoration: none;
+                            color: #F05C67;
+                            font-size: 1.39em;
+                            padding: 10px 20px;
+                            border: solid #F05C67 1px;
+                            text-transform: uppercase;
+                        }
+                        .btn-sec {
+                            
+                            font-family: 'Oswald',sans-serif;
+                            text-decoration: none;
+                            color: #fff;
+                            font-size: 1.39em;
+                            padding: 10px 20px;
+                            background-color: #F05C67;
+                            border: solid #F05C67 1px;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .main {
+        background-color: #032C37;
+        .about {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            .icon-dart {
+               display: block;
+               height: 8em;
+               width: 8em;
+               margin: 0 auto;
+               margin-bottom: 30px;
+            }
+            p {
+                color: #81969c;
+                font-size: 18px;
+                text-align: center;
+                margin: 0 auto;
+            }
+        }
+    }
+    /* terms*/
+    .terms {
+        padding: 70px 0 100px 0;
+        color: #5b777f;
+        text-align: right;
+        height: 100%;
+        .delopma-term {
+            padding: 80px 20px 80px 20px;
+            background: linear-gradient(to bottom, rgba(3,39,49,1) 0%, rgba(3,46,58,1) 20%, rgba(3,46,58,1) 100%, rgba(3,39,49,1) 100%);
+            h2 {
+                font-weight: 400;
+                margin-bottom: 26px;
+                font-size: 36px;
+                color: #5b777f;
+                text-align: center;
+            }
+            hr {
+                height: 3px;
+                width: 60px;
+                position: relative;
+                background: #626a29;
+                border: 0;
+                margin-bottom: 30px;
+            }
+            h4 {
+                color: #81969c;
+                font-size: 20px;
+                margin-top: 10px;
+                margin-bottom: 10px
+            }
+        }
+        .master {
+            background: linear-gradient(to bottom, rgba(193,166,24,1) 0%, rgba(241,196,15,1) 25%, rgba(241,196,15,1) 75%, rgba(193,166,24,1) 100%);
+            color: #1c424d;
+            h2,h4 {
+                color: #1c424d;
+            }
+            ul {
+                li {
+                    line-height: 1.5;
+                }
+            }
+        }
+    }
+
+}
