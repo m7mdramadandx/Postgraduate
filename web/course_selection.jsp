@@ -40,12 +40,22 @@
                     String s = Integer.toString(count);
                     String cc = request.getParameter(s);
                     if (cc != null) {
-                        PreparedStatement preparedStatement = con.prepareStatement("SELECT course_code from `student_course` WHERE `student_id` = '" +obj.getId()+ "' ;");
+                        PreparedStatement preparedStatement = con.prepareStatement("SELECT COUNT(student_id) AS RowCnt FROM student_course");
                         ResultSet resultSet = preparedStatement.executeQuery();
+                        
+                        System.out.println(resultSet);
+                        
+
+                        PreparedStatement preparedStatement1 = con.prepareStatement("SELECT course_code from `student_course` WHERE `student_id` = '" +obj.getId()+ "' ;");
+                        ResultSet resultSet1 = preparedStatement1.executeQuery();
                         System.out.println("enter enter");
                         
                         while (resultSet.next()) {
-                            if (!resultSet.getString("course_code").equals(rs.getString(1))) {
+                        System.out.println("1--");
+                            
+                            if (resultSet1.getString("course_code").equals(rs.getString(1))) {
+                                System.out.print("duplicated entry!");
+                            } else {
                                 System.out.println(" courses is  " + rs.getString(1));
                                 PreparedStatement p = con.prepareStatement(" insert into `student_course` (`student_id`, `course_code`, `start_date`, `end_date`) VALUES "
                                         + " (?,?,?,?) ");
@@ -56,8 +66,6 @@
                                 p.executeUpdate();
                                 System.out.println(rs.getString(1) + " course is selected");
                                 break;
-                            } else {
-                                System.out.print("duplicated entry!");
                             }
                         }
                     } else {

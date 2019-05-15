@@ -20,14 +20,7 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link" href="main.jsp">الصفحة الرئيسية</a></li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">الطلاب</a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="doctorate.jsp">التسجيل للدكتوراه</a>
-                        <a class="dropdown-item" href="master.jsp">التسجيل للماجيستير</a>
-                        <a class="dropdown-item" href="diploma.jsp">التسجيل للدبلوم</a>
-                    </div>
-                </li>
+              
                 <li class="nav-item"><a class="nav-link" href="terms.jsp">شروط التقديم</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">اتصل بنا</a></li>
             </ul>
@@ -39,11 +32,11 @@
                 <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt="" />
                 <h3>مرحبا</h3>
                 <p>ادخل البيانات التاليه لانشاء حساب</p>
-                <a href="sign_in.jsp"><input type="submit" name="" value="تسجيل دخول" /></a><br />
+                <a href="sign_in.jsp"> <input type="submit" name="" value="تسجيل دخول" /></a><br />
             </div>
             <div class="col-md-9 register-right">
                 <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                    <form class="row register-form" method="POST" action="sign_up_imp.jsp">
+                    <form class="row register-form" method="POST" action="newjsp.jsp" >
                         <div class="col-md-6">
                             <div class="form-group">
                                 <input type="text" class="form-control" name="id" placeholder="اسم المستخدم*"
@@ -65,7 +58,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class="form-group">
-                                <input type="text" class="form-control" name="degree_type" placeholder="المؤهل*"
+                                <input type="text" class="form-control" name="degree_type" placeholder="الدرجة*"
                                     value="" />
                             </div>
                             <div class="form-group">

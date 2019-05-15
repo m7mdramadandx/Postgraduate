@@ -23,6 +23,7 @@
         LocalDate now = LocalDate.now();
         String enroll_date = now.getMonth().toString();
         enroll_date = enroll_date + " " + now.getYear();
+        
         String first_name = request.getParameter("first_name");
         String last_name = request.getParameter("last_name");
         String dob = request.getParameter("dob");
@@ -67,7 +68,7 @@
                     + " `address`, `telephone`, `bachelor`, `round`, `general_appreciation`, `department`, `specialization_appreciation`,"
                     + " `faculty`, `university`, `graduation_year`, `graduate_diploma`, `gd_round`, `gd_specialization`, `gd_appreciation`,"
                     + " `gd_faculty`, `gd_university`, `master_degree`, `md_date`, `md_specialization`, `md_appreciation`, `md_faculty`,"
-                    + " `md_university`, `registered_scientific_section` ,,`enroll_round`)"
+                    + " `md_university`, `registered_scientific_section` ,`enroll_round`)"
                     + "values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);");
             p.setString(1, first_name);
             p.setString(2, last_name);
@@ -104,7 +105,7 @@
             p.setString(33, md_faculty);
             p.setString(34, md_university);
             p.setString(35, registered_scientific_section);
-            p.setString(30, enroll_date);
+            p.setString(36, enroll_date);
             p.executeUpdate();
             System.out.println("DATA IS ENTERED INTO DECORATE TABLE!");
             response.sendRedirect("student_home.jsp");

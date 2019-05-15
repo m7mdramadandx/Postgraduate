@@ -4,17 +4,17 @@
     Author     : asd
 --%>
 
-<%@page import="java.sql.Connection"%>
-<%@page import="folder.connectionDB"%>
-<%@page import="java.time.LocalDateTime"%>
-<%@page import="java.time.format.DateTimeFormatter"%>
-<%@page import="java.util.Date"%>
-<%@page import="java.sql.ResultSet"%>
-<%@page import="java.sql.SQLException"%>
-<%@page import="javax.servlet.http.HttpSession"%>
-<%@page import ="java.sql.Statement"%>
-<%@page import="java.sql.DriverManager"%>
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+    <%@page import="java.sql.Connection"%>
+    <%@page import="folder.connectionDB"%>
+    <%@page import="java.time.LocalDateTime"%>
+    <%@page import="java.time.format.DateTimeFormatter"%>
+    <%@page import="java.util.Date"%>
+    <%@page import="java.sql.ResultSet"%>
+    <%@page import="java.sql.SQLException"%>
+    <%@page import="javax.servlet.http.HttpSession"%>
+    <%@page import ="java.sql.Statement"%>
+    <%@page import="java.sql.DriverManager"%>
+    <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <jsp:useBean id="obj" scope="session" class="folder.Data"></jsp:useBean>
 
 
