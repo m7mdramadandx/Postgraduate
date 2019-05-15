@@ -1,0 +1,28 @@
+.navbar {
+    border-bottom: 1px solid #E9ECEF;
+}
+.navbar .navbar-brand {
+    color: #12698D;
+}
+.navbar .btn-link {
+    color: #12698D !important;
+}
+.navbar .nav-link i{
+    font-size: 20px;
+}
+.navbar .form-control {
+    background-color: #E9ECEF;
+}
+
+.sidebar {
+    background-color: #1C2D36 ;
+}
+.sidebar .nav-item .nav-link:hover {
+    color: #4ABFE4;
+}
+#wrapper {
+    background-color: #F6F8FA;
+}
+.save {
+    width: 50%;
+}

@@ -1,0 +1,134 @@
+html, body {
+  direction: rtl;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  /* terms*/
+}
+html nav, body nav {
+  background-color: #032E3A;
+  border: 1px solid transparent;
+}
+html nav a img, body nav a img {
+  height: 48px;
+  width: 156px;
+}
+html nav div, body nav div {
+  margin-right: 20px;
+}
+html nav div ul li a, body nav div ul li a {
+  text-align: right;
+}
+html nav div ul li a:hover, body nav div ul li a:hover {
+  color: #f3ca27 !important;
+}
+html nav div ul li a[class^=active], body nav div ul li a[class^=active] {
+  color: #f3ca27 !important;
+}
+html header section, body header section {
+  background: url(../img/233116-P2AQQU-997.jpg) fixed no-repeat 50%;
+  height: 700px;
+  width: 100%;
+  margin: auto;
+  display: table;
+  background-size: cover;
+}
+html header section .inner, body header section .inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  direction: ltr;
+}
+html header section .inner .header-txt, body header section .inner .header-txt {
+  max-width: 500px;
+  margin: 0 7.39vw;
+  vertical-align: middle;
+}
+html header section .inner .header-txt h1, body header section .inner .header-txt h1 {
+  font-family: "Raleway", sans-serif;
+  color: #233142;
+  text-shadow: 0px 0px 300px #000;
+  font-size: 500%;
+}
+html header section .inner .header-txt .btns .btn-one, body header section .inner .header-txt .btns .btn-one {
+  font-family: "Oswald", sans-serif;
+  text-decoration: none;
+  color: #F05C67;
+  font-size: 1.39em;
+  padding: 10px 20px;
+  border: solid #F05C67 1px;
+  text-transform: uppercase;
+}
+html header section .inner .header-txt .btns .btn-sec, body header section .inner .header-txt .btns .btn-sec {
+  font-family: "Oswald", sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.39em;
+  padding: 10px 20px;
+  background-color: #F05C67;
+  border: solid #F05C67 1px;
+  text-transform: uppercase;
+}
+html .main, body .main {
+  background-color: #032C37;
+}
+html .main .about, body .main .about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+html .main .about .icon-dart, body .main .about .icon-dart {
+  display: block;
+  height: 8em;
+  width: 8em;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+html .main .about p, body .main .about p {
+  color: #81969c;
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto;
+}
+html .terms, body .terms {
+  padding: 70px 0 100px 0;
+  color: #5b777f;
+  text-align: right;
+  height: 100%;
+}
+html .terms .delopma-term, body .terms .delopma-term {
+  padding: 80px 20px 80px 20px;
+  background: linear-gradient(to bottom, #032731 0%, #032e3a 20%, #032e3a 100%, #032731 100%);
+}
+html .terms .delopma-term h2, body .terms .delopma-term h2 {
+  font-weight: 400;
+  margin-bottom: 26px;
+  font-size: 36px;
+  color: #5b777f;
+  text-align: center;
+}
+html .terms .delopma-term hr, body .terms .delopma-term hr {
+  height: 3px;
+  width: 60px;
+  position: relative;
+  background: #626a29;
+  border: 0;
+  margin-bottom: 30px;
+}
+html .terms .delopma-term h4, body .terms .delopma-term h4 {
+  color: #81969c;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+html .terms .master, body .terms .master {
+  background: linear-gradient(to bottom, #c1a618 0%, #f1c40f 25%, #f1c40f 75%, #c1a618 100%);
+  color: #1c424d;
+}
+html .terms .master h2, html .terms .master h4, body .terms .master h2, body .terms .master h4 {
+  color: #1c424d;
+}
+html .terms .master ul li, body .terms .master ul li {
+  line-height: 1.5;
+}
+
+/*# sourceMappingURL=main.css.map */

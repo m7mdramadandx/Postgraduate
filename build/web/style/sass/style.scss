@@ -1,0 +1,88 @@
+@import url("../css/main.css");
+
+body {
+    background: url("../img/394532-PCGX5V-799.jpg") 50% fixed;
+         background-size: cover;
+    .form-container {    
+         font-size: 14px;
+         padding-top: 90px;
+        
+        form {
+            background: rgba(255, 255, 255, 0.74);
+            padding: 20px 40px 20px;
+            color: #f3ca27;
+            label{
+                text-align: right;
+                display: block;
+                font-weight: bold;
+            }
+            input {
+                display: block;
+                border: 1px solid #ccc;
+                padding: 6px 12px;
+            }
+           
+            fieldset {
+                color: #f3ca27;
+                text-align: right;
+                margin-bottom: 18px;
+                padding-bottom: 10px;   
+                legend {
+                    text-align: right;
+                } 
+                input {
+                    display: inline;
+                }
+
+            }
+            .field {
+                text-align: right;
+                margin-bottom: 15px;
+                input ,select {
+                    display: inline-block;
+                    margin-left: 10px;
+                    border: 1px solid #ccc;
+                    padding: 6px 12px;
+                    color: #757575;
+                }
+            }
+            .field-two {
+                margin-bottom: 15px;
+                input:first-child {
+                    width: 63%;
+                    margin-bottom: 10px;
+                }
+            }
+            .fieldset-two {
+                width: 86%;
+                input {
+                    display: inline-block;
+                    margin-bottom: 10px;
+                }
+                input:last-child{
+                    width: 52%;
+                }
+            }
+            .btn {
+                border: 1px solid transparent;
+                color: #fff;
+                border-color: #f3ca27;
+                background-color:#f3ca27;
+                font-size: 16px;
+                margin: 0 auto;
+            }
+            .btn:hover{
+                background-color:#f39c12;
+            }
+            
+        }
+        .form-sign {
+            margin: 0 auto;
+            text-align: right;
+            a {
+                color: #f3ca27;
+            }
+        }
+    }
+  
+}
